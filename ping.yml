@@ -1,6 +1,5 @@
 - name: demo playbook
   hosts: all
-  ansible_python_interpreter: /usr/bin/python  
   become: yes
   tasks:
     - name: Run demo task of pinging servers only
